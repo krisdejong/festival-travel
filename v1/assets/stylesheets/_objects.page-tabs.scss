@@ -1,0 +1,113 @@
+.o-page-tabs {
+  @include grid-container;
+  list-style: none;
+  display: inline-block;
+  white-space: nowrap;
+  float: left;
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+
+  @media (min-width: $breakpoint-10) {
+    overflow-x: inherit;
+    white-space: normal;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0 0 0 -3px;
+
+    @media (min-width: $breakpoint-10) {
+      float: left;
+      margin: 0;
+    }
+
+    &--active {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        height: 2px;
+        background: $color-neutral-10;
+        display: inline-block;
+        z-index: $z-index-20;
+      }
+
+      a {
+        background: $color-neutral-10;
+        pointer-events: none;
+        position: relative;
+      }
+    }
+
+    &:nth-last-child(2) {
+      border-right: 1px solid $color-neutral-30;
+    }
+
+    &:last-child {
+      border-right: 1px solid $color-neutral-30;
+
+      @media (min-width: $breakpoint-10) {
+        float: right;
+      }
+    }
+  }
+
+  &__link {
+    background: $white;
+    color: $color-neutral-70;
+    display: block;
+    line-height: 1;
+    padding: $spacing-40;
+    font-weight: 700;
+    font-size: $font-size-20;
+    border-left: 1px solid $color-neutral-30;
+
+    &:hover {
+      color: $color-primary-50;
+    }
+  }
+
+  &--in-container {
+    background: $white;
+    border: 1px solid $color-neutral-30;
+    border-left: 0;
+    margin-bottom: $spacing;
+
+    .o-page-tabs__item {
+
+      &:last-child {
+        float: none;
+      }
+
+      &:nth-last-child(2) {
+      border-right: none;
+      }
+    }
+  }
+}
+
+.o-page-tabs-wrapper {
+  @include grid-container;
+  border-bottom: 1px solid $color-neutral-30;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: $z-index-20;
+    background: linear-gradient(90deg, rgba($white, 0.1) 0%, $white 100%);
+    display: inline-block;
+    pointer-events: none;
+  }
+
+}

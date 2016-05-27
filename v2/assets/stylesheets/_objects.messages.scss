@@ -1,0 +1,172 @@
+/*------------------------------------*\
+  #OBJECTS-MESSAGES
+\*------------------------------------*/
+
+/*ul*/.o-messages {
+  list-style: none;
+  margin-bottom: $spacing;
+}
+
+%o-messages__item {
+  @include grid-container;
+  border-radius: $border-radius-10;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  vertical-align: baseline;
+  position: relative;
+
+  &:only-child {
+    margin-bottom: 0;
+  }
+}
+
+/*li*/.o-messages__item {
+  @extend %o-messages__item;
+  background: $color-secondary-10;
+  border: 1px solid $color-secondary-20;
+  color: $color-secondary-50;
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+  &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}
+
+/*li*/.o-messages__item--neutral {
+  @extend %o-messages__item;
+  background: $color-neutral-10;
+  border: 1px solid $color-neutral-30;
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+  &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}
+
+/*li*/.o-messages__item--success {
+  @extend %o-messages__item;
+  background: $color-primary-10;
+  border: 1px solid $color-primary-20;
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+  &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}
+
+/*li*/.o-messages__item--alert {
+  @extend %o-messages__item;
+  background: rgba($color-alert-50, 0.15);
+  border: 1px solid rgba($color-alert-50, 0.2);
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+   &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}
+
+/*li*/.o-messages__item--contrast {
+  @extend %o-messages__item;
+  background: $color-neutral-90;
+  color: $white;
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+   &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}
+
+/*li*/.o-messages__item--warning {
+  @extend %o-messages__item;
+  background: $color-tint-10;
+  border: 1px solid $color-tint-30;
+
+  .o-button {
+    margin-top: 5px;
+    display: block;
+
+    @media (min-width: $breakpoint-10) {
+      float: right;
+      margin-top: 0;
+      margin-left: $spacing-20;
+    }
+  }
+
+  &--has-button {
+    @include grid-container;
+
+    @media (min-width: $breakpoint-10) {
+      line-height: 35px;
+    }
+  }
+}

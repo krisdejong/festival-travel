@@ -1,0 +1,161 @@
+.c-navigation-primary {
+  margin-bottom: $spacing-40;
+
+  &__logo {
+    display: inline-block;
+
+    &__link {
+      background: url(https://festival.travel/festivalnl/themes/festivaltravel/images/logo.png) no-repeat;
+      background-size: 100%;
+      height: calc(62px / 2 );
+      width: calc(117px / 2 );
+      display: block;
+
+      @media (min-width: $breakpoint-20) {
+        height: 62px;
+        width: 117px;
+      }
+    }
+  }
+
+  &__list {
+    display: none;
+    list-style: none;
+    margin: 0;
+    top: 1rem;
+    vertical-align: top;
+    position: relative;
+    margin: 0 $spacing-20;
+
+    @media (min-width: $breakpoint-20) {
+      display: inline-block;
+    }
+  }
+
+  &__list__item {
+    display: inline-block;
+  }
+
+  &__list__link {
+    font-size: $font-size-20;
+    display: block;
+    color: $color-neutral-70;
+    padding: $spacing-20;
+  }
+
+  &__settings {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -0.25rem;
+
+    @media (min-width: $breakpoint-20) {
+      top: 0.55rem;
+    }
+
+    &__item {
+      border-radius: $border-radius-20;
+      border: 1px solid $color-neutral-30;
+      display: inline-block;
+      border-radius: $border-radius-20;
+      border: 1px solid $color-neutral-30;
+      list-style: none;
+      height: 47px;
+      display: inline-block;
+      padding: $spacing-10;
+      margin-left: $spacing-20;
+    }
+  }
+
+  &__language {
+    list-style: none;
+    padding: $spacing-10;
+    display: none;
+
+    @media (min-width: $breakpoint-20) {
+      display: inline-block;
+    }
+
+    &__item {
+      display: inline-block;
+      position: relative;
+
+      &:first-child {
+        &:before {
+          content: '/';
+          position: absolute;
+          right: -4px;
+          top: 7px;
+        }
+      }
+
+      &--active a {
+        text-decoration: underline;
+      }
+    }
+
+    &__link {
+      color: $color-neutral-70;
+      display: block;
+      padding: $spacing-20 $spacing-20;
+      font-size: $font-size-10;
+      font-weight: bold;
+    }
+  }
+
+  &__account {
+    display: inline-block;
+
+    &__link {
+      color: $color-neutral-70;
+      display: block;
+      padding: $spacing-20 $spacing-20;
+      font-size: $font-size-10;
+      font-weight: bold;
+      position: relative;
+
+      .o-icon {
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  &__phone {
+    display: inline-block;
+
+    &__link {
+      color: $color-neutral-70;
+      display: block;
+      padding: $spacing-20;
+      font-size: $font-size-10;
+      font-weight: bold;
+      position: relative;
+
+      @media (min-width: $breakpoint-10) {
+        padding: $spacing-20 $spacing-20 $spacing-20 35px;
+      }
+    }
+
+    .o-icon {
+      position: relative;
+      top: 3px;
+
+      @media (min-width: $breakpoint-10) {
+        position: absolute;
+        left: 10px;
+        top: 11px;
+      }
+    }
+
+    span {
+      display: none;
+      position: absolute;
+
+      @media (min-width: $breakpoint-10) {
+        display: inline-block;
+        position: relative;
+      }
+    }
+  }
+}

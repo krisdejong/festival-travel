@@ -1,0 +1,40 @@
+.o-price {
+  letter-spacing: 0.2px;
+
+  &--large {
+    font-size: $font-size-30;
+
+    .o-price__old,
+    .o-price__regular {
+      font-size: $font-size-30;
+    }
+  }
+
+  &--with-description {
+    top: 1rem;
+  }
+
+  &__old {
+    vertical-align: top;
+    font-size: $font-size-20;
+    text-decoration: line-through;
+  }
+
+  &__regular {
+    margin-left: $spacing-10;
+    font-size: $font-size-20;
+  }
+
+  &--special {
+    font-weight: bold;
+    color: $color-alert-50;
+  }
+
+  &__description {
+    display: block;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+}

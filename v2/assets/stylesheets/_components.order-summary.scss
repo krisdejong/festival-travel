@@ -1,0 +1,378 @@
+body.c-order-summary-is-open {
+  position: fixed;
+}
+
+.c-order-summary-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 45px;
+  overflow: hidden;
+
+  -webkit-overflow-scrolling: touch;
+//  transition: height 0.15s ease;
+
+  &.scroll-to-fixed-fixed {
+    //margin-bottom: 2.15rem;
+  }
+
+  @media (min-width: $breakpoint-30) {
+    position: relative;
+    top: 0;
+    left: auto !important;
+    bottom: auto;
+    right: auto;
+    height: auto;
+    overflow: hidden;
+  }
+
+  &.is-open {
+    top: 0;
+    height: 100%;
+    background: rgba($black, 0.5);
+    //overflow-y: scroll;
+
+    @media (min-width: $breakpoint-30) {
+      background: none;
+    }
+
+    .c-order-summary {
+      transform: translateY(0);
+      overflow-y: scroll;
+    }
+
+    .c-order-summary__link {
+      color: $white;
+      width: 100%;
+      background: $color-secondary-50;
+
+      .c-order-summary__arrow {
+        transform: rotate(0deg);
+        text-shadow: $shadow-10;
+        transform-origin: 45% 60%;
+
+        svg {
+          fill: $white;
+        }
+      }
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
+
+.c-order-summary {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0 !important;
+  transform: translateY(87%); // ie fix
+  transform: translateY(calc(100% - 45px));
+  transition: transform $timing-10 ease-out;
+  overflow: hidden;
+  border: 0;
+  -webkit-overflow-scrolling: touch;
+  max-height: 100%;
+
+  @media (min-width: $breakpoint-30) {
+    position: relative;
+    border: 1px solid $color-neutral-30;
+    transform: translateY(0);
+    overflow: visible;
+  }
+
+  &__content {
+
+  }
+
+  &__link {
+    color: $white;
+    display: block;
+
+    @media (min-width: $breakpoint-30) {
+      pointer-events: none;
+    }
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .o-panel--callout {
+
+    .o-panel__title {
+      display: inline-block;
+    }
+
+    span {
+      display: none;
+
+      @media (min-width: $breakpoint-10) {
+        display: inline-block;
+      }
+
+      @media (min-width: $breakpoint-30) {
+        display: none;
+      }
+    }
+  }
+
+  &__progress {
+    padding-right: $spacing*2;
+    display: none;
+    float: right;
+
+    @media (min-width: $breakpoint-20) {
+      display: inline-block;
+    }
+
+    @media (min-width: $breakpoint-30) {
+      display: none;
+    }
+
+    &__item {
+      display: inline-block;
+      padding-left: $spacing;
+      margin-left: $spacing;
+      position: relative;
+
+      &:before {
+        border-radius: 100%;
+        border: 1px solid $white;
+        content: '';
+        background: url(../images/check-mark.svg) no-repeat center;
+        background-size: 75%;
+        position: absolute;
+        left: 0;
+        top: calc(50% - 8px);
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+      }
+
+      &--completed:before {
+        background: $white url(../images/check-mark-blue.svg) no-repeat center;
+      }
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 20px;
+    content: '';
+    background-size: 100%;
+    height: 14px;
+    width: 14px;
+    will-change: transform;
+    transform-origin: 45% 80%;
+    transition: $timing-10 ease-out;
+    backface-visibility: hidden;
+    transform: rotate(180deg);
+
+    @media (min-width: $breakpoint-10) {
+
+    }
+
+    @media (min-width: $breakpoint-30) {
+      display: none;
+    }
+
+    svg {
+      fill: $white;
+      width: 14px;
+      height: 12px;
+    }
+  }
+
+  &__buttons {
+    @include grid-container;
+    border-top: 1px solid $color-neutral-30;
+    padding: $spacing-40;
+    text-align: left;
+
+    @media (min-width: $breakpoint-10) {
+      text-align: center;
+    }
+
+    @media (min-width: $breakpoint-30) {
+      border-top: 0;
+      padding: 0 $spacing-40 $spacing-40 $spacing-40;
+    }
+
+    &___total {
+      display: inline-block;
+      position: relative;
+      top: 0.275rem;
+
+      @media (min-width: $breakpoint-30) {
+        display: none;
+      }
+
+      strong {
+        margin-right: $spacing-40;
+      }
+    }
+
+    .o-button {
+      margin-bottom: 0;
+      float: right;
+
+      &--tint {
+        float: left;
+        display: none;
+
+        @media (min-width: $breakpoint-10) {
+          display: block;
+        }
+
+        @media (min-width: $breakpoint-30) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &__list {
+    margin: 0;
+    list-style: none;
+
+    &__link {
+      color: $color-neutral-70;
+      display: block;
+      padding: $spacing-40;
+
+      &:hover {
+        color: $color-neutral-70;
+      }
+    }
+
+    &__item {
+      @include grid-container;
+      border-top: 1px solid $color-neutral-30;
+      position: relative;
+
+      &.is-selected {
+        // &:after {
+        //   content: '';
+        //   width: 16px;
+        //   height: 16px;
+        //   position: absolute;
+        //   top: calc(50% - 9px);
+        //   left: -9px;
+        //   transform: rotate(45deg);
+        //   background: $white;
+        //   z-index: -1;
+        //   border-left: 1px solid $color-neutral-30;
+        //   border-bottom: 1px solid $color-neutral-30;
+        //   display: none;
+
+        //   @media (min-width: $breakpoint-30) {
+        //     display: block;
+        //   }
+        // }
+      }
+
+      &--total {
+        padding: $spacing-40 $spacing-40 $spacing-30 $spacing-40;
+
+        .c-order-summary__list__price {
+          padding-right: 0;
+        }
+      }
+
+      .o-panel-inner {
+        padding: 0 $spacing;
+        display: none;
+      }
+
+      &.is-open {
+
+        .o-panel-inner {
+          display: block;
+        }
+
+        .o-panel-inner__item:first-child{
+          padding-top: 0;
+        }
+
+        .c-order-summary__list__item__arrow {
+          transform: rotate(180deg);
+        }
+      }
+
+      &--completed a.c-order-summary__list__link {
+        padding-left: 2.55rem;
+
+        &:before {
+          content: '';
+          background: $color-success-50 url(../images/check-mark.svg) no-repeat center;
+          background-size: 80%;
+          border-radius: 100%;
+          position: absolute;
+          left: $spacing-40;
+          top: 1.25rem;
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+        }
+      }
+
+      &:first-child {
+        border-top: 0;
+      }
+
+      &:only-child {
+        border-top: 1px solid $color-neutral-30;
+      }
+
+      // &:nth-child(even) {
+      //   background: $color-neutral-10;
+
+      //   &.is-selected {
+      //     &:after {
+      //       background: $color-neutral-10;
+      //     }
+      //   }
+      // }
+
+      &__arrow {
+        position: absolute;
+        top: 1rem;
+        right: $spacing-40;
+        content: '';
+        background-size: 100%;
+        height: 10px;
+        width: 10px;
+        will-change: transform;
+        transform-origin: 50% 120%;
+        transition: $timing-10 ease-out;
+        backface-visibility: hidden;
+
+        svg {
+          fill: $color-neutral-50;
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+
+    &__title {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: $font-size-20;
+    }
+
+    &__price {
+      font-weight: bold;
+      float: right;
+      padding-right: $spacing-40;
+      font-size: $font-size-20;
+    }
+  }
+}

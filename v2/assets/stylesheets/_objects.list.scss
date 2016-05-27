@@ -1,0 +1,48 @@
+/*------------------------------------*\
+  #OBJECTS-LIST
+\*------------------------------------*/
+
+/*ul or ol*/.o-list {
+  list-style: none;
+  margin: -0.2rem 0 $spacing - 0.2rem 0;
+}
+
+  /*li*/.o-list__item {
+    padding: .1rem 0 .1rem 1.25rem;
+    position: relative;
+    font-size: $font-size-20;
+
+    &:before {
+      position: absolute;
+      left: 0.4rem;
+      content: " ";
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+ul.o-list {
+
+  /*li*/.o-list__item:before {
+    top: 0.85rem;
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background: $color-neutral-70;
+  }
+}
+
+ol.o-list {
+
+  /*li*/.o-list__item {
+    padding-left: 1.5rem;
+    counter-increment: list__counter;
+
+    &:before {
+      left: 6px;
+      content: counter(list__counter)".";
+    }
+  }
+}
