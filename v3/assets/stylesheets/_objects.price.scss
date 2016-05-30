@@ -1,0 +1,44 @@
+.o-price {
+  letter-spacing: 0.2px;
+  font-size: $font-size-20;
+
+  &--large {
+    font-size: $font-size-30;
+
+    .o-price__old,
+    .o-price__regular {
+      font-size: $font-size-30;
+    }
+  }
+
+  &--with-description {
+    top: 1rem;
+  }
+
+  &__old {
+    vertical-align: top;
+    font-size: $font-size-20;
+    text-decoration: line-through;
+  }
+
+  &__regular {
+    font-size: $font-size-20;
+
+    @media (min-width: $breakpoint-30) {
+      margin-left: $spacing-10;
+    }
+  }
+
+  &--special {
+    font-weight: bold;
+    color: $color-alert-50;
+  }
+
+  &__description {
+    display: block;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+}

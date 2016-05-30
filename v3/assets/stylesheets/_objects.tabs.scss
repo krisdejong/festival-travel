@@ -1,0 +1,54 @@
+.o-tabs {
+  @include grid-container;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+
+  &__item {
+    @include grid-container;
+    flex: 1;
+
+    &:first-child {
+
+      a {
+        border-radius: $border-radius-20 0 0 0;
+      }
+    }
+
+    &:last-child {
+      border-left: 1px solid $color-neutral-30;
+
+      a {
+        border-radius: 0 $border-radius-20 0 0;
+        position: relative;
+        margin-right: 1px;
+      }
+    }
+
+    &--active a {
+      background: $white;
+      border-bottom-color: transparent;
+      pointer-events: none;
+    }
+  }
+
+  &__link {
+    background: $color-neutral-10;
+    color: $color-neutral-70;
+    border-bottom: 1px solid $color-neutral-30;
+    display: block;
+    line-height: 1;
+    padding: $spacing-40;
+    font-weight: 600;
+
+    @media (min-width: $breakpoint-10) {
+      font-size: $font-size-30;
+    }
+
+    &:hover {
+      color: $color-primary-50;
+    }
+  }
+}

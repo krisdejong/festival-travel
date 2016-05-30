@@ -1,0 +1,99 @@
+/*------------------------------------*\
+  #UTILITIES-GLOBAL
+\*------------------------------------*/
+
+.u-hidden { display: none !important; }
+.u-visible { display: block !important; }
+
+.u-invisible { visibility: hidden !important; }
+
+.u-text-left { text-align: left; }
+
+.u-text-right { text-align: right; }
+
+.u-text-center { text-align: center; }
+
+.u-float-left { float: left; }
+
+.u-float-right { float: right; }
+
+.u-no-spacing { margin: 0 !important; }
+.u-small-spacing { margin-bottom: $spacing-30; }
+.u-tiny-spacing { margin-bottom: $spacing-10; }
+.u-only-top-spacing { margin: $spacing-20 0 0 0 !important; }
+
+.u-hidden-on-tablet {
+  display: none;
+
+  @media (min-width: $breakpoint-30) {
+    display: block;
+  }
+}
+
+
+.u-hidden-on-mobile {
+  display: none;
+
+  @media (min-width: $breakpoint-10) {
+    display: block;
+  }
+}
+
+.u-only-visble-on-mobile-and-tablet {
+  display: block;
+
+  @media (min-width: $breakpoint-30) {
+    display: none;
+  }
+}
+
+.u-only-visble-on-tablet {
+  display: none;
+
+  @media (min-width: $breakpoint-10) {
+    display: inline-block;
+  }
+
+  @media (min-width: $breakpoint-30) {
+    display: none;
+  }
+}
+
+
+.u-only-visble-on-desktop {
+  display: none;
+
+  @media (min-width: $breakpoint-30) {
+    display: block;
+  }
+}
+
+
+.u-only-visble-on-mobile {
+  display: block;
+
+  @media (min-width: $breakpoint-10) {
+    display: none;
+  }
+}
+
+.u-stacked li {
+  display: block;
+  margin-top: $spacing-5;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.u-red {
+  color: $color-alert-50 !important;
+}
+
+.u-green {
+  color: $color-primary-50;
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,75 @@
+/*------------------------------------*\
+  #SETTINGS-COLORS
+\*------------------------------------*/
+
+/*
+ * Most of the variables are based on some kind of percentages to maintain stability and consistency.
+ * So $variable-10 is small or light and $variable-100 is big or dark.
+ */
+
+
+/*
+ * Primary colors
+ */
+// $color-primary-10: #e9f5e9;
+// $color-primary-20: darken(#e9f5e9, 10%);
+// $color-primary-30: #29c882;
+// $color-primary-40: lighten(#51af1a, 5%); // Default
+// $color-primary-50: #51af1a; // Default
+// $color-primary-70: #038049;
+
+
+$color-primary-10: #eef7e8;
+$color-primary-20: #b9dfa3;
+$color-primary-30: #96cf75;
+$color-primary-40: lighten(rgba(#51af1a, 0.85), 0%);
+$color-primary-50: #51af1a; // Default
+$color-primary-70: darken(#51af1a, 8%);
+
+
+/*
+ * Secondary colors
+ */
+$color-secondary-10: #e9f3f7;
+$color-secondary-20: #d5e5ec;
+$color-secondary-30: lighten(#258eb3, 35%);
+$color-secondary-40: lighten(#258eb3, 20%);
+$color-secondary-50: lighten(#258eb3, 5%); // Default
+$color-secondary-70: #1988af;
+
+$color-tint-10: #fff8d1; // Default
+$color-tint-30: #eddf94;
+
+/*
+ * Success and positive colors
+ */
+$color-success-50: #39b924; // Default
+$color-success-70: #249c11;
+
+
+/*
+ * Alert en negative colors
+ */
+$color-alert-30: lighten(#f3490d, 10%); // Default
+$color-alert-50: #f3490d; // Default
+$color-alert-70: #d33e09;
+
+
+/*
+ * Neutral colors
+ */
+$color-neutral-10: darken(#fbfbfb, 1%);
+$color-neutral-20: #f4f4f4;
+$color-neutral-30: #d6d6d6;
+$color-neutral-40: #d0d0d0;
+$color-neutral-45: lighten(#909090, 5%);
+$color-neutral-50: #7c7c7c;
+$color-neutral-70: #3f4542;
+$color-neutral-90: #2c2c2c;
+
+
+/*
+ * Black and white
+ */
+$black: #000;
+$white: #fff;

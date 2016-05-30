@@ -1,0 +1,48 @@
+/*------------------------------------*\
+  #LAYOUT-CONTAINERS
+\*------------------------------------*/
+
+/*
+ * Build up your container to get your website centered
+ */
+.l-container {
+  @include grid-container;
+  margin: auto;
+  max-width: $max-width;
+  padding: $spacing-40 $spacing-20 0 $spacing-20;
+  position: relative;
+
+  @media (min-width: $breakpoint-20) {
+    padding: 2rem;
+    padding-bottom: 0.6rem;
+  }
+
+  &--small-spacing {
+    padding: $spacing-40 $spacing-20 0 $spacing-20;
+
+    @media (min-width: $breakpoint-20) {
+      padding: $spacing-40 2rem 0 2rem;
+    }
+  }
+
+  &--no-spacing {
+    padding: 0 $spacing-20 0 $spacing-20;
+
+    @media (min-width: $breakpoint-20) {
+      padding: 0 2rem;
+    }
+  }
+
+  &--no-top-spacing-mobile {
+    margin-top: -$spacing-40;
+
+    @media (min-width: $breakpoint-10) {
+      margin-top: 0;
+    }
+  }
+}
+
+.l-container--full-width {
+  max-width: none;
+  margin: 0;
+}
