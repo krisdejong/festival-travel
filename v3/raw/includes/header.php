@@ -5,12 +5,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="apple-mobile-web-app-title" content="Flinc">
-  <meta name="theme-color" content="#6944A2">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#6944A2">
+  <meta name="apple-mobile-web-app-title" content="Festival Travel">
+  <meta name="theme-color" content="#51af1a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#51af1a">
 
   <meta name="msapplication-TileImage" content="favicon-144.png">
-  <meta name="msapplication-TileColor" content="#6944A2">
+  <meta name="msapplication-TileColor" content="#51af1a">
 
   <title>Festival.Travel</title>
   <meta name="description" content="">
@@ -18,8 +18,6 @@
 
   <link rel="stylesheet" href="../assets/stylesheets/styles.css">
   <link rel="shortcut icon" href="favicon-32.ico">
-  <link rel="icon" sizes="192x192" href="icon-highres.png">
-  <link rel="apple-touch-icon-precomposed" href="favicon-152.png">
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
 

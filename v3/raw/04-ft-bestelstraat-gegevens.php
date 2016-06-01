@@ -45,7 +45,7 @@
         <div class="o-panel__body">
           <ul class="o-messages u-hidden-on-mobile">
             <li class="o-messages__item o-messages__item--has-button">
-              Snel klaar zijn? Registreer met jouw Facebook account <a class="o-button o-button--facebook"><svg class="o-icon o-icon--inline"><use xlink:href="#facebook-icon" /></svg>Deel op Facebook</a>
+              Snel klaar zijn? Registreer met jouw Facebook account <a class="o-button o-button--facebook"><svg class="o-icon o-icon--inline"><use xlink:href="#facebook-icon" /></svg>Inloggen met Facebook</a>
             </li>
           </ul>
 
@@ -76,8 +76,9 @@
         </div>
       </div>
       <div class="o-button-wrapper">
-        <a class="o-button o-button--neutral" href="/v3/raw/01-dashboard.php">Terug</a>
+
         <a class="o-button u-float-right" href="/v3/raw/05-ft-bestelstraat-overzicht.php">Doorgaan</a>
+        <a class="o-button o-button--neutral" href="/v3/raw/01-dashboard.php">Terug</a>
       </div>
     </div>
 

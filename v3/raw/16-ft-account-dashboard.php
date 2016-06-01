@@ -48,7 +48,7 @@
           <p>Dit is het persoonlijke account gedeelte van Festival.travel. Vanuit hier kan je jouw boekingen inzien, tickets onderverdelen aan vrienden en je persoonlijke gegevens bewerken.</p>
         </div>
       </div>
-      <div class="o-panel">
+      <div class="o-panel o-panel--large-spacing">
         <div class="o-panel__body">
           <h3 class="large-spacing">Persoonlijke to do lijst</h3>
         </div>
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="l-one-third">
+    <div class="l-one-third u-hidden-on-tablet">
       <aside class="">
         <div class="o-panel">
 

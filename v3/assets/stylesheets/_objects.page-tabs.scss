@@ -21,7 +21,7 @@
   &__item {
     text-align: center;
     display: inline-block;
-    flex: 0 0 50%;
+    flex: 0 0 45%;
     border-bottom: 1px solid $color-neutral-30;
 
     @media (min-width: $breakpoint-10) {
@@ -135,11 +135,14 @@
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50px;
+    width: 75px;
     z-index: $z-index-20;
     background: linear-gradient(90deg, rgba($white, 0.1) 0%, $white 100%);
     display: inline-block;
     pointer-events: none;
-  }
 
+    @media (min-width: $breakpoint-20) {
+      display: none;
+    }
+  }
 }

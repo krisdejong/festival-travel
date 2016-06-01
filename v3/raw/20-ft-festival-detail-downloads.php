@@ -96,7 +96,7 @@
 
     <div class="l-one-third">
       <aside class="">
-        <div class="o-panel">
+        <div class="o-panel o-panel--large-spacing">
           <div class="o-panel__body">
             <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Producten &amp; tickets</h4>
           </div>

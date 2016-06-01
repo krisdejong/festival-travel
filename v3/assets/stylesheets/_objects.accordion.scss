@@ -19,7 +19,16 @@
   }
 
   .o-accordion {
+    // border: 1px solid $color-neutral-30;
+    // border-left-color: $color-neutral-30;
+    // border-right-color: $color-neutral-30;
     margin-bottom: $spacing-40;
+  }
+
+  .o-panel {
+    border: 1px solid $color-neutral-30;
+    // border-left-color: $color-neutral-30;
+    // border-right-color: $color-neutral-30;
   }
 
   // &:last-of-type {

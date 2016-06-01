@@ -41,13 +41,14 @@
           </form>
         </div>
       </div>
-      <div class="o-button-wrapper u-text-left">
-        <a class="neutral-link" href="">Terug</a>
-        <a class="o-button">Reset wachtwoord</a>
+
+      <div class="o-button-wrapper">
+        <a class="o-button" href="">Doorgaan</a>
+        <a class="o-button o-button--neutral" href="">Terug</a>
       </div>
     </div>
 
-    <div class="l-one-third">
+    <div class="l-one-third u-hidden-on-tablet">
       <aside class="">
         <div class="o-panel">
           <ul class="o-panel__list">

@@ -163,10 +163,12 @@
       </div>
 
       <div class="o-button-wrapper">
-        <a class="o-button o-button--neutral">Terug</a>
-        <a class="neutral-link" href="">Voeg nog een festival toe</a>
-        <a class="o-button">Doorgaan</a>
+        <a class="o-button" href="">Doorgaan</a>
+        <a class="neutral-link u-hidden-on-mobile" href="">Voeg nog een festival toe</a>
+        <a class="o-button o-button--neutral u-only-visble-on-mobile" href="">Voeg nog een festival toe</a>
+        <a class="o-button o-button--neutral" href="">Terug</a>
       </div>
+
     </div>
 
     <div class="l-one-third u-hidden-on-tablet">

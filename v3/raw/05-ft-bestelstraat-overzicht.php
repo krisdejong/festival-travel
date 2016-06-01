@@ -78,7 +78,7 @@
             <h3 class="is-h6 u-uppercase">Services</h3>
             <ul class="o-messages u-no-spacing">
               <li class="o-messages__item--warning o-messages__item--warning--has-button">Een festival kluisje is altijd handig, €25 euro
-                <a class="o-button o-button--alert o-button--has-icon">
+                <a class="o-button o-button--neutral o-button--has-icon">
                   <svg class="o-icon o-icon--large"><use xlink:href="#icon-delete" /></svg>
                 </a>
                 <a class="o-button">Toevoegen</a>
@@ -126,12 +126,10 @@
         </ul>
       </div>
       <div class="o-button-wrapper">
-        <a class="o-button o-button--neutral" href="/v3/raw/05-ft-bestelstraat-overzicht.php">Terug</a>
-        <a class="neutral-link u-hidden-on-mobile" href="">Voeg nog een festival toe</a>
         <a class="o-button" href="/v3/raw/09-ft-bestelstraat-betalen-zonder.php">Doorgaan</a>
-        <div>
-          <a class="neutral-link u-only-visble-on-mobile" href="">Voeg nog een festival toe</a>
-        </div>
+        <a class="neutral-link u-hidden-on-mobile" href="">Voeg nog een festival toe</a>
+        <a class="o-button o-button--neutral u-only-visble-on-mobile" href="">Voeg nog een festival toe</a>
+        <a class="o-button o-button--neutral" href="/v3/raw/05-ft-bestelstraat-overzicht.php">Terug</a>
       </div>
     </div>
 

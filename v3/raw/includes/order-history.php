@@ -1,4 +1,4 @@
-<div class="o-panel">
+<div class="o-panel o-panel--large-spacing">
   <div class="o-panel__body">
     <h3 class="o-panel__title">Bestelhistorie</h3>
     <p class="is-small">Hieronder staat jouw bestelhistorie op Festival.Travel. Door op het PDF-icoon te klikken kun je de bijbehorende factuur downloaden.</p>
