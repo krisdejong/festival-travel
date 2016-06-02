@@ -1,22 +1,10 @@
 .o-accordion-list {
   @include grid-container;
-  margin-bottom: $spacing-40;
+  margin-bottom: 0;
 
   @media (min-width: $breakpoint-10) {
     margin-bottom: $spacing-40;
   }
-
-  // .o-accordion:last-of-type {
-  //   margin-bottom: $spacing-20;
-
-  //   @media (min-width: $breakpoint-10) {
-  //     margin-bottom: $spacing-20;
-  //   }
-
-  //   @media (min-width: $breakpoint-30) {
-  //     margin-bottom: $spacing-40;
-  //   }
-  // }
 
   &__item {
     display: block;

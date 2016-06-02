@@ -62,10 +62,10 @@
 </footer>
 
 <!-- Scripts -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript" src="../assets/scripts/min/swiper.jquery.min.js"></script>
 <script type="text/javascript" src="../assets/scripts/min/flipclock.min.js"></script>
-<script type="text/javascript" src="../assets/scripts/interface.js"></script>
+<script type="text/javascript" src="../assets/scripts/interface.js"></script> -->
 </body>
 
 </html>

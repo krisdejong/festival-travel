@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-title" content="Festival Travel">
   <meta name="theme-color" content="#51af1a">
   <meta name="apple-mobile-web-app-status-bar-style" content="#51af1a">
@@ -18,8 +18,8 @@
 
   <link rel="stylesheet" href="../assets/stylesheets/styles.css">
   <link rel="shortcut icon" href="favicon-32.ico">
-
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
+<!--
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'> -->
 
 </head>
 
