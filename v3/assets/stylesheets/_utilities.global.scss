@@ -22,6 +22,25 @@
 .u-tiny-spacing { margin-bottom: $spacing-10; }
 .u-only-top-spacing { margin: $spacing-20 0 0 0 !important; }
 
+.u-flex-mobile {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+
+  @media (min-width: $breakpoint-10) {
+    display: inline-block;
+  }
+}
+
+.u-order-1 {
+  order: 1;
+}
+
+.u-order-2 {
+  order: 2;
+}
+
 .u-hidden-on-tablet {
   display: none;
 

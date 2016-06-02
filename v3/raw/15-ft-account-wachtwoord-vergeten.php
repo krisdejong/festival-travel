@@ -16,10 +16,9 @@
 </header>
 
 <div class="l-wrapper l-wrapper--neutral">
-  <div class="l-container">
+  <div class="l-container l-container--no-top-spacing-mobile">
     <div class="l-two-third">
       <div class="o-panel">
-
         <div class="o-panel__body">
           <h2 class="is-h3">Wachtwoord vergeten</h2>
           <p>Kan gebeuren, geen probleem. Jouw account is gelinkt aan een emailadres, waarschijnlijk die je gebruikt hebt tijdens het plaatsen van een bestelling. Weet je ook deze niet meer? Bel of mail dan met onze helpdesk.</p>

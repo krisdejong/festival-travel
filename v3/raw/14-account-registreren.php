@@ -16,7 +16,7 @@
 </header>
 
 <div class="l-wrapper l-wrapper--neutral">
-  <div class="l-container">
+  <div class="l-container l-container--no-top-spacing-mobile">
     <div class="l-two-third">
       <div class="o-panel">
         <ul class="o-tabs">
@@ -111,7 +111,7 @@
       </div>
     </div>
 
-    <div class="l-one-third">
+    <div class="l-one-third u-hidden-on-tablet">
       <aside class="">
         <div class="o-panel">
           <div class="o-panel__body">
