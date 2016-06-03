@@ -18,8 +18,8 @@
 
   <link rel="stylesheet" href="../assets/stylesheets/styles.css">
   <link rel="shortcut icon" href="favicon-32.ico">
-<!--
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'> -->
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
 
 </head>
 
