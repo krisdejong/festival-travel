@@ -3,6 +3,11 @@
   position: relative;
   z-index: 10;
   clear: both;
+  margin-top: 10px;
+
+  @media (min-width: $breakpoint-30) {
+    margin-top: 0;
+  }
 
   p {
     color: rgba($white, 0.8);

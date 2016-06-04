@@ -14,8 +14,11 @@
 
   @media (min-width: $breakpoint-20) {
     border: 1px solid $color-neutral-30;
-    margin: 0 0 $spacing 0;
     width: 100%;
+  }
+
+  @media (min-width: $breakpoint-30) {
+    margin: 0 0 $spacing 0;
   }
 
   &:before {

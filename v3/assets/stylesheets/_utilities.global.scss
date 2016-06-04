@@ -28,7 +28,7 @@
   flex: 1;
   flex-direction: column;
 
-  @media (min-width: $breakpoint-10) {
+  @media (min-width: $breakpoint-30) {
     display: inline-block;
   }
 }

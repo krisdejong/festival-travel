@@ -2,6 +2,10 @@
   @include grid-container;
   margin-bottom: 0;
 
+  &--spacing {
+    margin-bottom: $spacing-40;
+  }
+
   @media (min-width: $breakpoint-10) {
     margin-bottom: $spacing-40;
   }

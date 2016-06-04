@@ -76,7 +76,6 @@
         </div>
       </div>
       <div class="o-button-wrapper">
-
         <a class="o-button u-float-right" href="/v3/raw/05-ft-bestelstraat-overzicht.php">Doorgaan</a>
         <a class="o-button o-button--neutral" href="/v3/raw/01-dashboard.php">Terug</a>
       </div>

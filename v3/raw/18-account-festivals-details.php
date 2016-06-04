@@ -55,122 +55,123 @@
       </ul>
     </div>
 
-    <div class="l-two-third">
-      <ul class="o-accordion-list">
-         <li class="o-accordion-list__item">
-           <div class="o-panel o-accordion js-accordion">
-            <a class="o-panel__link o-accordion__link">
-              <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7 days pass tickets</h2>
-              <div class="o-accordion__price o-price">
-                <span class="o-price__regular o-price--special">1 openstaande taak</span>
+    <div class="u-flex-mobile">
+      <div class="l-two-third u-order-2">
+        <ul class="o-accordion-list o-accordion-list--spacing">
+           <li class="o-accordion-list__item">
+             <div class="o-panel o-accordion js-accordion">
+              <a class="o-panel__link o-accordion__link">
+                <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7 days pass tickets</h2>
+                <div class="o-accordion__price o-price">
+                  <span class="o-price__regular o-price--special">1 openstaande taak</span>
+                </div>
+                <i class="o-icon o-accordion__arrow">
+                  <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+                </i>
+              </a>
+              <div class="o-accordion__content o-panel__body">
+                <p>Content</p>
               </div>
-              <i class="o-icon o-accordion__arrow">
-                <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
-              </i>
-            </a>
-            <div class="o-accordion__content o-panel__body">
-              <p>Content</p>
             </div>
-          </div>
-        </li>
-        <li class="o-accordion-list__item">
-          <div class="o-panel o-accordion js-accordion">
-            <a class="o-panel__link o-accordion__link">
-              <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Camping alternativa</h2>
-              <i class="o-icon o-accordion__arrow">
-                <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
-              </i>
-            </a>
-            <div class="o-accordion__content o-panel__body">
-              <form action="/" method="post">
-                <fieldset>
-                  <ul class="o-form">
+          </li>
+          <li class="o-accordion-list__item">
+            <div class="o-panel o-accordion js-accordion">
+              <a class="o-panel__link o-accordion__link">
+                <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Camping alternativa</h2>
+                <i class="o-icon o-accordion__arrow">
+                  <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+                </i>
+              </a>
+              <div class="o-accordion__content o-panel__body">
+                <form action="/" method="post">
+                  <fieldset>
+                    <ul class="o-form">
 
-                    <li class="o-form__item o-form__item--half">
-                      <label class="o-form__label" for="">Kenteken</label>
-                      <div class="o-form__fields">
-                        <input type="text" />
-                      </div>
-                    </li>
-
-                    <li class="o-form__item o-form__item--half">
-                      <label class="o-form__label" for="">Opstapplaats</label>
-                      <div class="o-form__fields">
-                        <div class="o-form__select">
-                          <select>
-                            <option>Amsterdam</option>
-                          </select>
+                      <li class="o-form__item o-form__item--half">
+                        <label class="o-form__label" for="">Kenteken</label>
+                        <div class="o-form__fields">
+                          <input type="text" />
                         </div>
-                      </div>
-                    </li>
+                      </li>
 
-
-                    <li class="o-form__item o-form__item--half">
-                      <label class="o-form__label" for="">Aankomst datum</label>
-                      <div class="o-form__fields">
-                        <div class="o-form__select">
-                          <select class="disable" disabled>
-                            <option>17 augustus 2016</option>
-                          </select>
+                      <li class="o-form__item o-form__item--half">
+                        <label class="o-form__label" for="">Opstapplaats</label>
+                        <div class="o-form__fields">
+                          <div class="o-form__select">
+                            <select>
+                              <option>Amsterdam</option>
+                            </select>
+                          </div>
                         </div>
-                      </div>
-                    </li>
+                      </li>
 
-                    <li class="o-form__item o-form__item--half">
-                      <label class="o-form__label" for="">Vertrek datum</label>
-                      <div class="o-form__fields">
-                        <div class="o-form__select">
-                          <select class="disable" disabled>
-                            <option>17 augustus 2016</option>
-                          </select>
+
+                      <li class="o-form__item o-form__item--half">
+                        <label class="o-form__label" for="">Aankomst datum</label>
+                        <div class="o-form__fields">
+                          <div class="o-form__select">
+                            <select class="disable" disabled>
+                              <option>17 augustus 2016</option>
+                            </select>
+                          </div>
                         </div>
-                      </div>
-                    </li>
-                  </ul>
+                      </li>
 
-                  <div class="o-button-wrapper">
-                    <a class="o-button o-button--neutral">Wijzigingen opslaan</a>
-                  </div>
+                      <li class="o-form__item o-form__item--half">
+                        <label class="o-form__label" for="">Vertrek datum</label>
+                        <div class="o-form__fields">
+                          <div class="o-form__select">
+                            <select class="disable" disabled>
+                              <option>17 augustus 2016</option>
+                            </select>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
 
-                </fieldset>
-              </form>
+                    <div class="o-button-wrapper">
+                      <a class="o-button o-button--neutral">Wijzigingen opslaan</a>
+                    </div>
+
+                  </fieldset>
+                </form>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="o-accordion-list__item">
-          <div class="o-panel o-accordion js-accordion">
-            <a class="o-panel__link o-accordion__link">
-              <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Kluisje</h2>
-              <i class="o-icon o-accordion__arrow">
-                <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
-              </i>
-            </a>
-            <div class="o-accordion__content o-panel__body">
-              <p>Content</p>
+          </li>
+          <li class="o-accordion-list__item">
+            <div class="o-panel o-accordion js-accordion">
+              <a class="o-panel__link o-accordion__link">
+                <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Kluisje</h2>
+                <i class="o-icon o-accordion__arrow">
+                  <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+                </i>
+              </a>
+              <div class="o-accordion__content o-panel__body">
+                <p>Content</p>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="l-one-third u-hidden-on-tablet">
-      <aside class="">
-        <div class="o-panel o-panel--large-spacing">
-          <div class="o-panel__body">
-            <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Producten &amp; tickets</h4>
-          </div>
+          </li>
+        </ul>
+      </div>
+      <div class="l-one-third u-order-1">
+        <aside class="">
+          <div class="o-panel o-panel--large-spacing">
+            <div class="o-panel__body">
+              <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Jouw producten voor Sziget Festival 2016</h4>
+            </div>
 
-          <ul class="o-panel__list">
-            <li class="o-panel__list__item">
-              <p class="u-small-spacing is-small">In dit overzicht vind je alle door jou, of door je reisgenoot gekochtte producten voor het Sziget Festival 2016.</p>
-              <p class="u-no-spacing is-small">Zorg ervoor dat alle taken afgerond zijn, eerder kan je de tickets niet downloaden.</p>
-            </li>
-            <li class="o-panel__list__item o-panel__list__item--neutral">
-              <?php include('includes/panel-helpdesk.php'); ?>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
+            <ul class="o-panel__list">
+              <li class="o-panel__list__item">
+                <p class="u-small-spacing is-small">In dit overzicht vind je alle door jou, of door je reisgenoot gekochtte producten voor het Sziget Festival 2016.</p>
+                <p class="u-no-spacing is-small">Zorg ervoor dat alle taken afgerond zijn, eerder kan je de tickets niet downloaden.</p>
+              </li>
+              <li class="o-panel__list__item o-panel__list__item--neutral">
+                <?php include('includes/panel-helpdesk.php'); ?>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 </div>

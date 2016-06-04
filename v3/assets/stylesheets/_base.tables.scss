@@ -27,13 +27,13 @@ thead th {
 
 tbody {
 
-  tr:last-child {
-    td {
-      border-bottom: 1px solid $color-neutral-30;
-    }
-  }
+  // tr:last-child {
+  //   td {
+  //     border-bottom: 1px solid $color-neutral-30;
+  //   }
+  // }
 
-  tr:nth-child(2n) { background: $color-neutral-10; }
+  // tr:nth-child(2n) { background: $color-neutral-10; }
 
   td {
     padding: $spacing-30;

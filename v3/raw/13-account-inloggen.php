@@ -69,9 +69,10 @@
           </form>
         </div>
       </div>
-      <div class="o-button-wrapper u-text-left">
-        <a class="neutral-link" href="">Wachtwoord vergeten</a>
-        <a class="o-button">Doorgaan</a>
+
+      <div class="o-button-wrapper">
+        <a class="o-button" href="">Doorgaan</a>
+        <a class="o-button o-button--neutral" href="">Wachtwoord vergeten</a>
       </div>
     </div>
 

@@ -120,9 +120,10 @@
       </div>
 
       <div class="o-button-wrapper">
-        <a class="o-button o-button--neutral">Terug</a>
-        <a class="o-button">Doorgaan</a>
+        <a class="o-button u-float-right" href="">Doorgaan</a>
+        <a class="o-button o-button--neutral" href="">Terug</a>
       </div>
+
     </div>
 
     <div class="l-one-third u-hidden-on-tablet">

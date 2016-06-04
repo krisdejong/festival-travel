@@ -46,6 +46,19 @@
         <div class="o-panel__body">
           <h2 class="is-h3">Welkom bij Festival Travel</h2>
           <p>Dit is het persoonlijke account gedeelte van Festival.travel. Vanuit hier kan je jouw boekingen inzien, tickets onderverdelen aan vrienden en je persoonlijke gegevens bewerken.</p>
+
+          <ul class="o-panel__list u-only-visble-on-mobile-and-tablet">
+
+            <li class="o-panel__list__item o-panel__list__item--has-image o-panel__list__item--no-left-spacing">
+              <a href="">
+                <figure class="o-media__image"><img src="../assets/images/foto-uploaden.png" /></figure>
+              </a>
+              <h4 class="is-h5">Tomas Loefen</h4>
+              <p class="is-small u-small-spacing">tomas@ostfest.com</p>
+              <p class="is-small u-no-spacing"><a class="neutral-link neutral-link--underline" href="">Wijzig gegevens</a></p>
+            </li>
+          </ul>
+
         </div>
       </div>
       <div class="o-panel o-panel--large-spacing">

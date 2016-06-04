@@ -135,15 +135,17 @@
     &.is-completed {
 
       &:before {
-        content: '';
-        background: url(../images/check.png) no-repeat;
-        position: absolute;
-        right: $spacing-40;
-        top: calc(50% - 5px);
-        width: 11px;
-        height: 11px;
-        display: inline-block;
-      }
+          border-radius: 100%;
+          content: '';
+          background: $color-success-50 url(#{$img-path}check-mark.svg) no-repeat center;
+          background-size: 70%;
+          position: absolute;
+          right: 1rem;
+          top: calc(50% - 8px);
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+        }
     }
 
     p, small {

@@ -55,114 +55,116 @@
       </ul>
     </div>
 
-    <div class="l-two-third">
+    <div class="u-flex-mobile">
+      <div class="l-two-third u-order-2">
 
-      <div class="o-panel o-accordion o-accordion--light js-accordion is-open">
-        <a class="o-panel__link o-accordion__link">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Tomas Loeffen</h2>
-          <i class="o-icon o-accordion__arrow">
-            <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
-          </i>
-        </a>
-        <div class="o-accordion__content o-panel__body o-panel__body--neutral">
-          <form action="/" method="post">
-            <fieldset>
-              <ul class="o-form">
-                <li class="o-form__item">
-                  Wil je jezelf toevoegen als eerste reiziger?
+        <div class="o-panel o-accordion js-accordion is-open">
+          <a class="o-panel__link o-accordion__link">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Tomas Loeffen</h2>
+            <i class="o-icon o-accordion__arrow">
+              <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+            </i>
+          </a>
+          <div class="o-accordion__content o-panel__body">
+            <form action="/" method="post">
+              <fieldset>
+                <ul class="o-form u-no-spacing">
+                  <li class="o-form__item">
+                    Wil je jezelf toevoegen als eerste reiziger?
 
-                  <ul class="o-form__radio-list">
-                    <li class="o-form__radio-list__item">
-                      <label class="o-form__radio o-form__radio--inline">
-                        Ja
-                        <input type="radio" />
-                      </label>
-                    </li>
-                    <li class="o-form__radio-list__item">
-                      <label class="o-form__radio o-form__radio--inline">
-                        Nee
-                        <input type="radio" checked />
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </fieldset>
-          </form>
-        </div>
-        <div class="o-accordion__content o-panel__body">
-          <div class="o-button-wrapper o-button-wrapper--no-top-spacing">
-           <button class="o-button o-button--neutral" type="submit">Wijzigingen opslaan</button>
+                    <ul class="o-form__radio-list">
+                      <li class="o-form__radio-list__item">
+                        <label class="o-form__radio o-form__radio--inline">
+                          Ja
+                          <input type="radio" />
+                        </label>
+                      </li>
+                      <li class="o-form__radio-list__item">
+                        <label class="o-form__radio o-form__radio--inline">
+                          Nee
+                          <input type="radio" checked />
+                        </label>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
           </div>
-        </div>
-      </div>
-
-      <div class="o-panel o-accordion o-accordion--light js-accordion is-open">
-        <a class="o-panel__link o-accordion__link">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Ruud Bongers</h2>
-          <i class="o-icon o-accordion__arrow">
-            <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
-          </i>
-          <div class="o-accordion__price o-price">
-            <span class="o-price__regular o-price--special">1 openstaande taak</span>
-          </div>
-        </a>
-        <div class="o-accordion__content o-panel__body">
-          <ul class="c-products">
-            <li class="c-products__item">
-              <strong class="c-products__title">1 x 7 Days pass ticket</strong>
-              <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
-              <a class="c-products__delete">
-                <svg class="icon"><use xlink:href="#icon-x" /></svg>
-              </a>
-            </li>
-            <li class="c-products__item">
-              <strong class="c-products__title">1 x 7 Days pass ticket</strong>
-              <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
-              <a class="c-products__delete">
-                <svg class="icon"><use xlink:href="#icon-x" /></svg>
-              </a>
-            </li>
-            <li class="c-products__item">
-              <strong class="c-products__title">1 x 7 Days pass ticket</strong>
-              <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
-              <a class="c-products__delete">
-                <svg class="icon"><use xlink:href="#icon-x" /></svg>
-              </a>
-            </li>
-          </ul>
-
-          <div class="c-products__add">
-            <div class="o-form__select">
-              <select>
-                <option>Voeg een product toe</option>
-              </select>
+          <div class="o-accordion__content o-panel__body">
+            <div class="o-button-wrapper o-button-wrapper--no-top-spacing">
+             <button class="o-button o-button--neutral" type="submit">Wijzigingen opslaan</button>
             </div>
-            <button class="o-button"><svg class="o-icon o-icon--inline u-no-spacing"><use xlink:href="#icon-plus" /></svg></button>
           </div>
+        </div>
 
-          <div class="o-button-wrapper o-button-wrapper--no-top-spacing">
-            <a class="o-button o-button--neutral">Wijzigingen opslaan</a>
-             <a class="o-button o-button--neutral">Persoonsgegevens</a>
+        <div class="o-panel o-accordion js-accordion is-open">
+          <a class="o-panel__link o-accordion__link">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Ruud Bongers</h2>
+            <i class="o-icon o-accordion__arrow">
+              <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+            </i>
+            <div class="o-accordion__price o-price">
+              <span class="o-price__regular o-price--special">1 openstaande taak</span>
+            </div>
+          </a>
+          <div class="o-accordion__content o-panel__body">
+            <ul class="c-products">
+              <li class="c-products__item">
+                <strong class="c-products__title">1 x 7 Days pass ticket</strong>
+                <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
+                <a class="c-products__delete">
+                  <svg class="icon"><use xlink:href="#icon-x" /></svg>
+                </a>
+              </li>
+              <li class="c-products__item">
+                <strong class="c-products__title">1 x 7 Days pass ticket</strong>
+                <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
+                <a class="c-products__delete">
+                  <svg class="icon"><use xlink:href="#icon-x" /></svg>
+                </a>
+              </li>
+              <li class="c-products__item">
+                <strong class="c-products__title">1 x 7 Days pass ticket</strong>
+                <p class="u-no-spacing is-small">12 juli 2016 t/m 21 juli 2016</p>
+                <a class="c-products__delete">
+                  <svg class="icon"><use xlink:href="#icon-x" /></svg>
+                </a>
+              </li>
+            </ul>
+
+            <div class="c-products__add">
+              <div class="o-form__select">
+                <select>
+                  <option>Voeg een product toe</option>
+                </select>
+              </div>
+              <button class="o-button"><svg class="o-icon o-icon--inline u-no-spacing"><use xlink:href="#icon-plus" /></svg></button>
+            </div>
+
+            <div class="o-button-wrapper o-button-wrapper--no-top-spacing">
+              <a class="o-button o-button--neutral o-button--neutral--margin-right">Wijzigingen opslaan</a>
+              <a class="o-button o-button--neutral">Persoonsgegevens</a>
+            </div>
           </div>
+        </div>
+
+        <div class="o-button-wrapper">
+          <button class="o-button" type="submit">Reizigers toevoegen</button>
         </div>
       </div>
 
-      <div class="o-button-wrapper">
-        <button class="o-button" type="submit">Reizigers toevoegen</button>
-      </div>
-    </div>
-
-    <div class="l-one-third">
-      <aside class="">
-        <div class="o-panel">
-          <div class="o-panel__body">
-          <h4 class="o-panel__title is-h4">Beschikbare producten</h4>
-          <p class="u-small-spacing is-small">Verdeel de producten en wijs deze toe aan de bijbehorende personen.</p>
-          <?php include('includes/products.php'); ?>
+      <div class="l-one-third u-hidden-on-tablet">
+        <aside class="">
+          <div class="o-panel">
+            <div class="o-panel__body">
+            <h4 class="o-panel__title is-h4">Beschikbare producten</h4>
+            <p class="u-small-spacing is-small">Verdeel de producten en wijs deze toe aan de bijbehorende personen.</p>
+            <?php include('includes/products.php'); ?>
+            </div>
           </div>
-        </div>
-      </aside>
+        </aside>
+      </div>
     </div>
   </div>
 </div>

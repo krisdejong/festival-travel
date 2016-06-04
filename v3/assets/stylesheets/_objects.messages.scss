@@ -11,7 +11,7 @@
   @include grid-container;
   border-radius: $border-radius-10;
   margin-bottom: 0.25rem;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   vertical-align: baseline;
   font-size: 14px;
   position: relative;
@@ -155,6 +155,8 @@
   .o-button {
     margin-top: 5px;
     display: block;
+    order: 1;
+    flex: 1 100%;
 
     @media (min-width: $breakpoint-10) {
       float: right;
@@ -163,10 +165,17 @@
     }
   }
 
+  .o-button--neutral {
+    order: 2;
+  }
+
   &--has-button {
     @include grid-container;
+    display: flex;
+    flex-direction: column;
 
     @media (min-width: $breakpoint-10) {
+      display: block;
       line-height: 35px;
     }
   }

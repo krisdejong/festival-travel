@@ -74,7 +74,9 @@
   }
 
   &--large-spacing {
-    margin-bottom: $spacing;
+    @media (min-width: $breakpoint-30) {
+      margin-bottom: $spacing;
+    }
   }
 
   &__price {

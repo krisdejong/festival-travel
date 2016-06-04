@@ -55,85 +55,84 @@
       </ul>
     </div>
 
-    <div class="l-two-third">
-
-      <div class="o-panel">
-        <a class="o-panel__link o-panel__link--neutral">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Alle bestanden downloaden</h2>
-          <span class="o-panel__link__absolute">1 openstaande taak</span>
-        </a>
-        <div class="o-panel__body">
-          <p><a class="orange-link orange-link--underline">Wij hebben nog aanvullende informatie nodig</a></p>
-        </div>
-      </div>
-      <div class="o-panel">
-        <a class="o-panel__link o-panel__link--tint js-modal">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Alle bestanden downloaden</h2>
-
-
-          <span class="o-panel__link__absolute">Download</span>
-        </a>
-      </div>
-      <div class="o-panel">
-        <a class="o-panel__link">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
-          <span class="o-panel__link__absolute u-green">Download</span>
-        </a>
-      </div>
-      <div class="o-panel">
-        <a class="o-panel__link">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
-          <span class="o-panel__link__absolute u-green">Download</span>
-        </a>
-      </div>
-      <div class="o-panel">
-        <a class="o-panel__link">
-          <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
-          <span class="o-panel__link__absolute u-green">Download</span>
-        </a>
-      </div>
-    </div>
-
-    <div class="l-one-third">
-      <aside class="">
-        <div class="o-panel o-panel--large-spacing">
+    <div class="u-flex-mobile">
+      <div class="l-two-third u-order-2">
+        <div class="o-panel">
+          <a class="o-panel__link o-panel__link--neutral">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Alle bestanden downloaden</h2>
+            <span class="o-panel__link__absolute">1 openstaande taak</span>
+          </a>
           <div class="o-panel__body">
-            <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Producten &amp; tickets</h4>
+            <p><a class="orange-link orange-link--underline">Wij hebben nog aanvullende informatie nodig</a></p>
           </div>
-
-          <ul class="o-panel__list">
-            <li class="o-panel__list__item">
-              <p class="u-small-spacing is-small">In dit overzicht vind je alle door jou, of door je reisgenoot gekochtte producten voor het Sziget Festival 2016.</p>
-              <p class="u-no-spacing is-small">Zorg ervoor dat alle taken afgerond zijn, eerder kan je de tickets niet downloaden.</p>
-            </li>
-            <li class="o-panel__list__item o-panel__list__item--light">
-              <h4 class="o-panel__title">Tickets per e-mail</h4>
-              <p class="u-small-spacing is-small">Ontvang je graag je tickets gebundeld per e-mail? Stuur dan deze e-mail naar een door jouw ingevuld e-mailadres hieronder.</p>
-
-              <form action="/" method="post">
-                <fieldset>
-                  <ul class="o-form u-no-spacing">
-                    <li class="o-form__item">
-                      <label class="o-form__label" for="">Emailadres</label>
-                      <div class="o-form__fields">
-                        <input type="text" />
-                      </div>
-                    </li>
-                    <li class="o-form__item ">
-                      <div class="o-form__fields u-no-spacing u-float-right">
-                        <input class="o-button o-button--neutral" type="submit" value="verstuur tickets" />
-                      </div>
-                    </li>
-                  </ul>
-                </fieldset>
-              </form>
-            </li>
-            <li class="o-panel__list__item o-panel__list__item--neutral">
-              <?php include('includes/panel-helpdesk.php'); ?>
-            </li>
-          </ul>
         </div>
-      </aside>
+        <div class="o-panel">
+          <a class="o-panel__link o-panel__link--tint js-modal">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">Alle bestanden downloaden</h2>
+            <span class="o-panel__link__absolute">Download</span>
+          </a>
+        </div>
+        <div class="o-panel">
+          <a class="o-panel__link">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
+            <span class="o-panel__link__absolute u-green">Download</span>
+          </a>
+        </div>
+        <div class="o-panel">
+          <a class="o-panel__link">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
+            <span class="o-panel__link__absolute u-green">Download</span>
+          </a>
+        </div>
+        <div class="o-panel">
+          <a class="o-panel__link">
+            <h2 class="o-panel__title is-h4 o-panel__title--no-spacing">7x 7 Days Pass</h2>
+            <span class="o-panel__link__absolute u-green">Download</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="l-one-third u-order-1">
+        <aside class="">
+          <div class="o-panel o-panel--large-spacing">
+            <div class="o-panel__body">
+              <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Jouw producten voor Sziget Festival 2016</h4>
+            </div>
+
+            <ul class="o-panel__list">
+              <li class="o-panel__list__item">
+                <p class="u-small-spacing is-small">In dit overzicht vind je alle door jou, of door je reisgenoot gekochtte producten voor het Sziget Festival 2016.</p>
+                <p class="u-no-spacing is-small">Zorg ervoor dat alle taken afgerond zijn, eerder kan je de tickets niet downloaden.</p>
+              </li>
+              <li class="o-panel__list__item o-panel__list__item--light">
+                <h4 class="o-panel__title">Tickets per e-mail</h4>
+                <p class="u-small-spacing is-small">Ontvang je graag je tickets gebundeld per e-mail? Stuur dan deze e-mail naar een door jouw ingevuld e-mailadres hieronder.</p>
+
+                <form action="/" method="post">
+                  <fieldset>
+                    <ul class="o-form u-no-spacing">
+                      <li class="o-form__item">
+                        <label class="o-form__label" for="">Emailadres</label>
+                        <div class="o-form__fields">
+                          <input type="text" />
+                        </div>
+                      </li>
+                      <li class="o-form__item ">
+                        <div class="o-form__fields u-no-spacing u-float-right">
+                          <input class="o-button o-button--neutral" type="submit" value="verstuur tickets" />
+                        </div>
+                      </li>
+                    </ul>
+                  </fieldset>
+                </form>
+              </li>
+              <li class="o-panel__list__item o-panel__list__item--neutral u-hidden-on-tablet">
+                <?php include('includes/panel-helpdesk.php'); ?>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
     </div>
   </div>
 </div>

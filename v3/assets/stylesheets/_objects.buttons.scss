@@ -95,6 +95,16 @@ input[type=submit].o-button--neutral {
     opacity: 0.5;
     pointer-events: none;
   }
+
+  &--margin-right {
+    @media (min-width: $breakpoint-10) {
+      margin-right: 1rem;
+    }
+  }
+
+  .o-icon {
+    fill: $color-neutral-70;
+  }
 }
 
 .o-button--tint {
@@ -250,10 +260,13 @@ input[type=submit].o-button--neutral {
 
   .o-button {
     display: block;
+    width: 100%;
     margin-bottom: $spacing-20;
 
     @media (min-width: $breakpoint-10) {
       float: right;
+
+      width: auto;
     }
 
     &--neutral {

@@ -30,7 +30,7 @@
     <div class="u-flex-mobile">
       <div class="l-two-third u-order-2">
         <ul class="o-messages">
-          <li class="o-messages__item--contrast">Geweldig je betaling is geslaagd</li>
+          <li class="o-messages__item--success">Geweldig je betaling is geslaagd</li>
         </ul>
 
         <div class="o-panel">
@@ -59,7 +59,7 @@
         </div>
       </div>
 
-      <div class="l-one-third u-order-1">
+      <div class="l-one-third u-hidden-on-tablet">
         <aside class="">
           <div class="o-panel">
             <div class="o-panel__body">
