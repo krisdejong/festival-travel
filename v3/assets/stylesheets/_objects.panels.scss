@@ -229,6 +229,16 @@
   }
 }
 
+.o-panel__list__item--no-left-spacing {
+  padding-left: 95px !important;
+  padding-top: 0 !important;
+
+  .o-media__image {
+    left: 0 !important;
+    top: 0 !important;
+  }
+}
+
 .o-panel__list {
   margin: 0;
   @include grid-container;
