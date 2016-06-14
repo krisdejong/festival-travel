@@ -5,12 +5,61 @@
   clear: both;
   margin-top: 10px;
 
+  &--border {
+    border-top: 1px solid $color-neutral-30;
+    //padding: 1rem 0;
+    margin-top: 0;
+    font-size: 15px;
+
+    p {
+      color: $color-neutral-70;
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+
+    i {
+      font-weight: bold;
+    }
+  }
+
   @media (min-width: $breakpoint-30) {
     margin-top: 0;
   }
 
-  p {
-    color: rgba($white, 0.8);
+
+  &__grid {
+    @include grid-container;
+    list-style: none;
+
+    @media (min-width: $breakpoint-10) {
+      @include grid(48, -1);
+    }
+
+    > li {
+
+      @media (min-width: $breakpoint-10) {
+        @include grid(24, 1);
+      }
+      @media (min-width: $breakpoint-30) {
+        @include grid(12, 1);
+      }
+    }
+
+    h6 {
+      font-size: 15px;
+      font-weight: 900;
+      margin-bottom: 15px;
+
+      @media (min-width: $breakpoint-30) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  &__stacked {
+    margin: 0 0 $spacing 0;
+    list-style: none;
   }
 
   &__icon-box {
@@ -100,7 +149,7 @@
   }
 
   &__copy {
-    color: $color-neutral-50;
+    color: $color-neutral-50 !important;
     padding: $spacing-10;
 
     @media (min-width: $breakpoint-30) {
@@ -111,3 +160,29 @@
     }
   }
 }
+
+ul.social li {
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+li.facebook {
+    background: url(https://festival.travel/festivalnl/themes/festivaltravel/images/icon10.png) no-repeat left;
+    background-size: 20px;
+}
+li.twitter {
+    background: url(https://festival.travel/festivalnl/themes/festivaltravel/images/icon11.png) no-repeat left;
+    background-size: 20px;
+}
+
+li.instagram {
+    background: url(https://festival.travel/festivalnl/themes/festivaltravel/images/instagram.png) no-repeat left;
+    background-size: 20px;
+}
+
+
+
+
+

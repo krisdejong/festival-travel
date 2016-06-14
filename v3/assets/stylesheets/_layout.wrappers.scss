@@ -6,6 +6,8 @@
  * Get full width backgrounds around your content
  */
 .l-wrapper {
+  overflow-x: hidden;
+
   &--spacing {
     padding-top: $spacing-40;
 
@@ -47,6 +49,11 @@
 .l-wrapper--contrast {
   background: $color-secondary-50;
   color: $white;
+
+  p {
+    color: rgba($white, 0.8);
+  }
+
 }
 
 .fixed {

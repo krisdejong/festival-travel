@@ -114,6 +114,7 @@
   @include grid-container;
   position: relative;
   margin: 0 -0.55rem;
+  overflow: hidden;
 
   @media (min-width: $breakpoint-10) {
     border-bottom: 1px solid $color-neutral-30;

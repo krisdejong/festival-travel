@@ -96,10 +96,9 @@
           </ul>
         </div>
       </aside>
-
     </div>
+
   </div>
 </div>
 
-
-<?php include('includes/footer.php'); ?>
+<?php include('includes/footer-account.php'); ?>
