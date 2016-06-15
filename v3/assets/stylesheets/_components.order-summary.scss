@@ -18,6 +18,16 @@ body.c-order-summary-is-open {
     //margin-bottom: 2.15rem;
   }
 
+  &.sticky-active {
+    padding-top: 1rem;
+  }
+
+  &.fixed {
+    position: fixed;
+    top: 1rem;
+  }
+
+
   @media (min-width: $breakpoint-30) {
     position: relative;
     top: 0;
@@ -85,7 +95,6 @@ body.c-order-summary-is-open {
     transform: translateY(0);
     overflow: visible;
   }
-
   &__content {
 
   }

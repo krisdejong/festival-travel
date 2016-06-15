@@ -6,7 +6,6 @@
  * Get full width backgrounds around your content
  */
 .l-wrapper {
-  overflow-x: hidden;
 
   &--spacing {
     padding-top: $spacing-40;
@@ -62,5 +61,9 @@
   width: inherit;
   max-width: 380px;
   z-index: $z-index-30;
+}
+
+.dashboard-wrapper {
+  clear: both;
 }
 
