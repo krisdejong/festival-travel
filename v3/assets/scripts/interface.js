@@ -207,31 +207,15 @@ $(document).ready(function(){
     //   dontCheckForPositionFixedSupport: true,
     //   removeOffsets: true
     // });
+
+    $('.js-order-summary').stickyScroll({
+      container: '.dashboard-wrapper'
+    });
   }
 
-  // $('.js-order-summary').stickyScroll({
-  //   //container: '.dashboard-wrapper',
-  //   bottomBoundary: '300px'
 
-  // });
 
 });
-
-$(document).ready(function() {
-        var el = $('.js-order-summary'),
-            top_offset = $('.dashboard-wrapper').offset().top;
-
-        $(window).scroll(function() {
-          var scroll_top = $(window).scrollTop();
-
-          if (scroll_top > top_offset) {
-            el.css('top', scroll_top - top_offset);
-          }
-          else {
-            el.css('top', '');
-          }
-        });
-      });
 
 
 /**

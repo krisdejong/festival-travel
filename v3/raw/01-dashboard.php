@@ -39,7 +39,7 @@
         </div>
 
         <div class="l-one-third">
-          <div class="sticky stickem-container">
+          <div class="sticky">
             <?php include('includes/panel-bestel-overzicht.php'); ?>
           </div>
         </div>
