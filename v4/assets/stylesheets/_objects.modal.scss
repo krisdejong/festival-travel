@@ -9,6 +9,7 @@ $block: 'o-modal';
   min-height: 100%;
   visibility: hidden;
   opacity: 0;
+  position: fixed !important;
   overflow-scrolling: touch;
 
   .swiper-container {

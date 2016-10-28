@@ -23,7 +23,8 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-width: 220px;
+    //max-width: 220px;
+    max-width: 100%;
   }
 
   &__count {
@@ -38,7 +39,8 @@
 
   &__delete {
     position: absolute;
-    top: calc(50% - 30px);
+    //top: calc(50% - 30px);
+    top: calc(50% - 18px);
     right: 0;
     bottom: 0;
     content: '';
