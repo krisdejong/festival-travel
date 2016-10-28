@@ -141,7 +141,7 @@
               <div class="clock"></div>
               <p class="u-no-spacing is-small">Resterende tijd om je bestelling te voltooien</p>
             </li>
-            <li class="o-panel__list__item o-panel__list__item--light">
+            <!-- <li class="o-panel__list__item o-panel__list__item--light">
               <form action="/" method="post">
                 <fieldset>
                   <ul class="o-form u-no-spacing">
@@ -154,7 +154,7 @@
                   </ul>
                 </fieldset>
               </form>
-            </li>
+            </li> -->
 
             <li class="o-panel__list__item o-panel__list__item--neutral">
               <?php include('includes/panel-helpdesk.php'); ?>

@@ -18,6 +18,12 @@
 .u-float-right { float: right; }
 
 .u-no-spacing { margin: 0 !important; }
+.u-no-spacing-tablet {
+  @media (min-width: $breakpoint-10) {
+    margin: 0 !important;
+  }
+}
+
 .u-small-spacing { margin-bottom: $spacing-30; }
 .u-tiny-spacing { margin-bottom: $spacing-10; }
 .u-only-top-spacing { margin: $spacing-20 0 0 0 !important; }

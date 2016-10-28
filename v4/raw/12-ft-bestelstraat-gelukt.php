@@ -62,12 +62,9 @@
       <div class="l-one-third u-hidden-on-tablet">
         <aside class="">
           <div class="o-panel">
-            <div class="o-panel__body">
-              <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Festival.Travel account</h4>
-            </div>
-
             <ul class="o-panel__list">
               <li class="o-panel__list__item">
+                <h4 class="o-panel__title is-h4">Festival.Travel account</h4>
                 <p class="is-small">Je vind al je tickets, vouchers, en nog veel meer terug in je festival.travel account omgeving.</p>
                 <a class="o-button">Direct inloggen</a>
               </li>

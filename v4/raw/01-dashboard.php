@@ -76,8 +76,7 @@
                   <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
                 </i>
               </a>
-              <div class="o-accordion__content o-panel__body">
-              </div>
+              <div class="o-accordion__content o-panel__body"></div>
             </div>
           </li>
           <li class="o-accordion-list__item">
@@ -176,4 +175,23 @@
   </div>
 </div>
 
+<!-- <div class="total-fixed">
+  <div class="o-panel">
+    <a class="o-panel__link">
+      <strong class="c-order-summary__list__title">Totaal</strong>
+      <div class="c-order-summary__list__price">
+        <div class="o-price">
+          <span class="o-price__old">€ 99,-</span>
+          <span class="o-price__regular o-price--special">€ 68,-</span>
+        </div>
+      </div>
+      <i class="o-icon o-accordion__arrow">
+        <svg class="icon"><use xlink:href="#icon-arrow-down" /></svg>
+      </i>
+    </a>
+  </div>
+</div> -->
+
+
 <?php include('includes/footer.php'); ?>
+<?php include('includes/modal-gallery.php'); ?>

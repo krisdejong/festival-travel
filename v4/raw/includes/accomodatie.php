@@ -64,6 +64,8 @@
                   </div>
                   <div class="swiper-button-next"></div>
                   <div class="swiper-button-prev"></div>
+
+                  <a class="js-modal swiper-wrapper__enlarge"><svg class="icon"><use xlink:href="#icon-enlarge" /></svg></a>
               </div>
             </div>
             <div class="o-panel__half">

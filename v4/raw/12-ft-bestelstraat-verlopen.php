@@ -67,12 +67,9 @@
       <div class="l-one-third u-order-1">
         <aside class="">
           <div class="o-panel">
-            <div class="o-panel__body">
-              <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Controleer je bestelling</h4>
-            </div>
-
             <ul class="o-panel__list">
               <li class="o-panel__list__item">
+              <h4 class="o-panel__title is-h4">Controleer je bestelling</h4>
                 <p class="is-small u-small-spacing">We willen je vragen jouw bestelling goed te controleren, hierbij helpen we je graag een handje. Zo zie je in het overzicht suggesties als het nodig is.</p>
                 <a class="o-button">Direct inloggen</a>
               </li>

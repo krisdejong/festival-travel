@@ -82,7 +82,7 @@
           </a>
         </li>
         <li class="c-order-summary__list__item c-order-summary__list__item--total u-only-visble-on-desktop " data-id="total">
-          <strong class="c-order-summary__list__title">Boeking totaal</strong>
+          <strong class="c-order-summary__list__title">Totaal</strong>
           <div class="c-order-summary__list__price">
             <div class="o-price">
               <span class="o-price__old">€ 99,-</span>
@@ -95,13 +95,11 @@
     <div class="c-order-summary__buttons">
       <a class="o-button o-button--tint" href="/v3/raw/04-ft-bestelstraat-gegevens.php">Verder bestellen</a>
       <div class="c-order-summary__buttons___total">
-        <strong class="u-uppercase is-h6">Boeking totaal</strong>
+        <strong class="u-uppercase is-h6">Totaal</strong>
         <span class="o-price__old">€ 99,-</span>
         <span class="o-price__regular o-price--special">€ 68,-</span>
       </div>
      <a class="o-button" href="/v3/raw/04-ft-bestelstraat-gegevens.php">Afronden</a>
     </div>
   </div>
-
-
 </div>

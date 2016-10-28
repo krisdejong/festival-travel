@@ -58,7 +58,7 @@
           <li class="o-form__item o-form__item--half"> <!--Laten staan is een fix--></li>
           <li class="o-form__item o-form__item--half">
             <label class="o-form__label" for="">Vertrek datum</label>
-            <div class="o-form__fields u-no-spacing">
+            <div class="o-form__fields u-no-spacing-tablet">
               <div class="o-form__select o-form__select--date">
                 <select class="disable" disabled>
                   <option>17 augustus 2016</option>
@@ -68,7 +68,7 @@
           </li>
           <li class="o-form__item o-form__item--half">
             <label class="o-form__label" for="">Reis naar</label>
-            <div class="o-form__fields u-no-spacing">
+            <div class="o-form__fields u-no-spacing-tablet">
               <div class="o-form__select o-form__select--location">
                 <select class="disable" disabled>
                   <option>Sziget, Hongarije</option>

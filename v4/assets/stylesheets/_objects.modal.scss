@@ -11,6 +11,10 @@ $block: 'o-modal';
   opacity: 0;
   overflow-scrolling: touch;
 
+  .swiper-container {
+    margin-top: $spacing/2;
+  }
+
   &:before {
     content: "";
     background: rgba($black, 0.5);
@@ -59,7 +63,9 @@ $block: 'o-modal';
     h1,
     h2 {
       padding-top: 0;
-      padding-right: $spacing;
+      position: relative;
+      font-size: 20px;
+      margin-right: $spacing;
     }
   }
 
@@ -69,7 +75,8 @@ $block: 'o-modal';
     top: 0;
     cursor: pointer;
     line-height: 1;
-    padding: $spacing;
+    padding: $spacing $spacing;
+    z-index: 999;
 
     &:hover svg {
       fill: $color-neutral-70;
@@ -84,5 +91,5 @@ $block: 'o-modal';
 }
 
 body.is-locked {
-  position: fixed;
+  //position: fixed;
 }

@@ -82,9 +82,12 @@
                 <a class="o-panel__close"><svg class="o-icon"><use xlink:href="#icon-delete" /></svg></a>
               </div>
               <div class="o-panel__body">
-                <figure class="o-media__image"><img src="http://www.reisjunk.nl/wp-content/uploads/2014/01/sziget2.jpg"></figure>
-
-                <p>Zorg dat je ongestoord kunt feesten op Sziget en leg je waardevolle spullen in een kluisje.</p>
+                <div class="o-panel__half">
+                  <figure class="o-media__image"><img src="http://www.reisjunk.nl/wp-content/uploads/2014/01/sziget2.jpg"></figure>
+                </div>
+                <div class="o-panel__half">
+                  <p>Zorg dat je ongestoord kunt feesten op Sziget en leg je waardevolle spullen in een kluisje.</p>
+                </div>
 
                 <form action="/" method="post">
                   <fieldset>
@@ -174,13 +177,10 @@
     <div class="l-one-third u-hidden-on-tablet">
       <aside class="">
         <div class="o-panel">
-          <div class="o-panel__body">
-            <h4 class="o-panel__title is-h4 o-panel__title--no-spacing">Bestelling opgeslagen</h4>
-          </div>
-
           <ul class="o-panel__list">
 
             <li class="o-panel__list__item">
+              <h4 class="o-panel__title is-h4">Bestelling opgeslagen</h4>
               <p class="u-no-spacing is-small">In het volgende scherm kan je jouw bestelling controleren, wijzigen en afronden.</p>
             </li>
 

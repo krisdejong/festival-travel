@@ -5,6 +5,10 @@
   clear: both;
   margin-top: 10px;
 
+  @media (min-width: $breakpoint-30) {
+    min-height: 372px;
+  }
+
   &--border {
     border-top: 1px solid $color-neutral-30;
     //padding: 1rem 0;
